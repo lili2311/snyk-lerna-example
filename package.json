@@ -1,0 +1,17 @@
+{
+  "name": "snyk-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "scripts": {
+    "snyk": "lerna exec 'snyk test --dev'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "snyk": "^1.370.0"
+  }
+}
